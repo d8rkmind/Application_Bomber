@@ -2,7 +2,6 @@
 
 start /max https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel
 
-:x
 
 echo msgbox "Hey! This is why you should not run or click unknown things " > %tmp%\tmp.vbs
 wscript %tmp%\tmp.vbs
@@ -16,6 +15,7 @@ echo msgbox "This is an awareness program only  " > %tmp%\tmp.vbs
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 
+:x
 
 start mspaint
 start notepad
